@@ -1,0 +1,500 @@
+/* Anderton Vehicle Movements Ltd */
+/* Category Menu Top Pages Menu Right Large Banner */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+}
+html, body {
+	font-size: 11px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	background: url(../images/BACK.jpg) repeat-x !important;
+}
+p {
+	margin: 11px 0;
+}
+a img {
+	border: 0;
+}
+a {
+	color: #870600; 
+}
+a:hover {
+}
+html #wrapper {
+	margin: 0px auto !important;
+	background: url(../images/bck.jpg) repeat-y;
+	width: 980px;
+
+}
+#wrapper .site_phrases_top {
+	position:relative;
+	width: 980px;
+	top: 0;
+}
+#wrapper .site_phrases_bottom {
+	position: absolute;
+	width: 980px;
+	padding-top: 0px;
+}
+#wrapper .site_phrases_top ul, #wrapper .site_phrases_bottom ul{
+	color: #999;
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+	background:#fff;
+	padding: 10px 0;
+}
+#wrapper .site_phrases_top li, #wrapper .site_phrases_bottom li {
+	display: inline;
+	margin: 5px;
+	width: 980px;
+}
+#skip_nav {
+	display: none;
+}
+#top {
+	position: relative;
+	float: left;
+}
+#top_inner_wrapper {
+	width: 980px;
+	height: 481px;
+	float: left;
+	background: url(../images/page-top.jpg) no-repeat;
+}
+#title_bar h1 {
+	color: #181818;
+	font-size: 29px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 100px;
+	overflow: hidden;
+	padding-top: 22px;
+	width: 380px;
+	position: absolute;
+	left: -10000px;
+}
+#page_date {
+	display: none;
+}
+#summary {
+	color: #181818;
+	font-weight: 300;
+	font-family: Tahoma;
+	font-size: 12px;
+	overflow: hidden;
+	width: 380px;
+	height: 30px;
+	margin: 0 0 0 100px;
+	position: absolute;
+	left: -10000px;
+}
+#summary p{
+	margin:0;
+	pading:0;
+}
+#logo object {
+	position: absolute;
+	margin-left:0px;
+	margin-top:173px;
+}
+#catmenu {
+	position:absolute;
+	top: 0;
+	font-size: 10px; 
+	text-transform: capitalize;
+	height: 53px;
+	overflow: hidden;
+	line-height: 40px;
+	padding: 108px 20px 0 20px;
+	width: 1000px;
+}
+#catmenu_inner_wrapper_top ul {
+	width: 1000px;
+	margin: auto;
+	}
+#catmenu_inner_wrapper_top ul li {
+	list-style: none;
+	display: inline;
+}
+#catmenu_inner_wrapper_top ul li.this_page {
+	color: #fff;
+	font-size: 10px; 
+	display: block;
+	float: left;
+	height: 47px;
+	overflow: hidden;
+	padding: 6px 0 0 0;
+	text-align: center;
+	text-decoration: none;
+	width: 140px;
+	margin-right: 0px;
+	background: url(../images/catmenu_this_page.jpg) top left no-repeat;
+
+}
+#catmenu_inner_wrapper_top ul li a {
+	color: #2f2f2f;
+	display: block;
+	float: left;
+	height: 47px;
+	overflow: hidden;
+	padding: 6px 0 0 0;
+	text-align: center;
+	text-decoration: none;
+	width: 140px;
+	background: url(../images/catmenu_a.jpg) top left no-repeat;
+}
+#catmenu_inner_wrapper_top ul li a:hover {
+	color: #fff;
+	background:  url(../images/catmenu_ahover.jpg) top left no-repeat;
+}
+#breadcrumb {
+	width: 980px;
+	height: 22px;
+	position: absolute;
+	bottom: -2px;
+	background: url(../images/breadcrumbs.jpg) repeat-y;
+}
+#breadcrumb ul {
+	padding: 2px 23px 0 25px;
+	overflow: hidden;
+	height: 22px;
+}
+#breadcrumb ul li {
+	display: inline;
+	margin-right: 10px;
+}
+#breadcrumb ul li a {
+	color: #aaa;
+	padding-left: 15px;
+	text-decoration: none;
+	background: url(../images/arrow.jpg) left no-repeat;
+}
+#breadcrumb ul li a:hover {
+	color: #181818;
+	text-decoration: underline;
+	background: url(../images/double-arrow.jpg) left no-repeat;
+}
+#breadcrumb ul li.this_page {
+	color: #181818;
+	font-weight: bold;
+	padding-left: 17px;
+	background: url(../images/double-arrow.jpg) left no-repeat;
+}
+#main {
+	margin-top: 0;
+	float: left;
+}
+#content {
+	float: left;
+	width: 665px;
+	padding: 1px 10px 0px 38px;
+	position: relative;
+	margin: 30px 0 0 0;
+ }
+#content h2 {
+	font-weight: normal; 
+	color: #4a4a4a;
+	font-size: 23px;
+	padding: 0 0 10px 0;
+	margin-left: 0; 
+	border-bottom: 2px solid #999;
+	width: 100%;
+	text-transform: none; 
+}
+#content h3 {
+	color: #b00800;
+	font-size: 14px;
+	height: 22px;
+	padding: 0 !important;
+	font-weight: bold;
+	margin-bottom: 10px; 
+}
+#content h4 {
+	color: #B00800;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 15px; 
+}
+#content ul, #content ol {
+	margin: 15px 25px 15px 25px;
+	padding-left: 30px;
+	overflow:hidden;
+	line-height: 21px; 
+	font-weight: bold;
+	list-style: none; 
+	color: #7f0500;
+}
+#content p {
+	line-height: 21px; 
+	color: #666;
+	text-align: justify;
+}
+#content img {
+	border: 1px dotted #999;
+	padding: 2px; 
+}
+#content form {
+
+	padding-bottom: 15px !important;
+	background: #fff;
+}
+#content label {
+	color:  #000;
+}
+#content textarea {
+	color: #999;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#content input {
+	color: #999;
+	background-color: #FFFFCC;
+}
+#content fieldset {
+	border: 0px;
+}
+#content form p#submitButtons {
+	float: right;
+	padding-right: 25px;
+}
+#content input#submit {
+	background: #666;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-right: 10px;
+	width: 60px;
+	color: #FFF;
+	cursor: pointer;
+}
+#content input#submit:hover {
+	color: #666;
+	background: #FFF;
+}
+#content input#reset {
+	background: #666;
+	font-weight: bold;
+	margin-top: 8px;
+	width: 100px;
+	color: #FFF;
+	cursor: pointer;
+}
+#content input#reset:hover {
+	color: #666;
+	background: #FFF;
+}
+#content input.errorInput, #content textarea.errorInput, #content checkbox.errorInput {
+	color: #F00;
+	border: 1px solid #F00;
+	background: #f8cad0;
+}
+#content input.okayInput, #content textarea.okayInput, #content checkbox.okayInput {
+	color: green;
+	border: 1px solid green;
+	background: #CCFFCC;
+}
+#rhcol {
+	width:232px;
+	display: inline;
+	float: right;
+	margin: 30px 29px 0 6px;
+	position: relative;
+	min-height: 50px;
+    height: auto !important;
+    height: 50px;
+	background: url(../images/rhpagemenu_bck.jpg) top left repeat;
+}
+#rhcol_inner_wrapper {
+	margin-top: 0px;
+	background: url(../images/rhpagemenu_bck.jpg) repeat-y;
+}
+#rhcol h2 {
+	color: #4a4a4a;
+	font-weight: normal; 
+	font-size:18px;
+	padding: 8px 0px 10px 0;
+	text-align:left;
+	width:70%;
+	background: url(../images/rhpage-header.jpg) top no-repeat;
+	border-bottom: 2px solid #999;
+	margin: 0 0 29px 15px;
+	text-transform: none; 
+}
+#pagemenu_inner_wrapper_right ul {
+	width: 232px;
+	list-style: none;
+	padding-bottom: 20px;
+	background: url(../images/rhpage-bottom.jpg) bottom no-repeat;
+}
+#pagemenu_inner_wrapper_right ul li a {
+	color: #80877f;
+	display: block;
+	text-decoration: none;
+	width:172px;
+	height: 21px;
+	overflow: hidden;
+	line-height: 18px;
+	padding: 7px 10px 7px 50px;
+	background: url(../images/rhpagemenu_a.jpg) no-repeat;
+}
+#pagemenu_inner_wrapper_right ul li a:hover {
+	text-decoration: underline;
+	background: url(../images/rhpagemenu_ahover.jpg) no-repeat;
+}
+#pagemenu_inner_wrapper_right ul li.this_page {
+	display: block;
+	text-decoration: underline;
+	width: 172px;
+	height: 21px;
+	padding: 7px 10px 7px 50px;
+	background: url(../images/rhpagemenu_ahover.jpg) no-repeat;
+}
+.sidebar_plugin {
+	color: #666;
+	width: 232px;
+	background: url(../images/rhpagemenu_bck.jpg) top left repeat;
+}
+.sidebar a {
+	color: #80877f;
+}
+.sidebar a:hover {
+
+}
+#rhcol .sidebar_plugin p {
+	margin: 0;
+	padding: 6px 28px 25px 28px;
+	background: url(../images/rhpage-bottom.jpg) bottom no-repeat;
+}
+#rhcol #sidebar_text p {
+	padding:5px 30px 25px !important;
+}
+#rhcol #rhcol_inner_wrapper #sidebar_image .sidebar_plugin {
+	background: none;
+}
+#rhcol #rhcol_inner_wrapper #sidebar_image {
+	background: url(../images/advert-h2.jpg) top no-repeat !important;
+}
+#rhcol #rhcol_inner_wrapper #sidebar_image p {
+	background: url(../images/rhpage-bottom.jpg) bottom no-repeat !important;
+}
+#rhcol #rhcol_inner_wrapper #sidebar_image img {
+	margin: 17px 0 21px;
+}
+
+#pagemenu_inner_wrapper_right .sidebar_plugin ul li.this_page {
+	color: #238024;
+	line-height: 30px;
+	text-decoration :none;
+	width: 232px;
+}
+#pagemenu_inner_wrapper_right ul li.this_page.visibility {
+	margin-bottom: 0px !important;
+}
+#footer {
+	color: #80877f;
+	clear: both;
+	width: 980px;
+	min-height: 80px;
+	height: auto !important;
+	height: 80px;
+	background:url(../images/footer_bck.jpg) repeat-y;
+	text-align:center;
+}
+
+#footer_inner_wrapper {
+	width: 980px;
+	overflow: hidden;
+	background: url(../images/footer_top.jpg) no-repeat top;
+	padding-top: 17px;
+	margin: 0;
+	padding-bottom: 20px; 
+}
+#footer_inner_wrapper ul {
+	line-height: 18px;
+	margin: 5px 0 0;
+	padding: 20px 20px 0 20px;
+	width: 940px;
+}
+#footer_inner_wrapper ul li {
+	background:transparent url(../images/text_bullets.jpg) no-repeat scroll 0 3px;
+	list-style: none;
+	text-align:center;
+	margin: 0 8px;
+	white-space: nowrap;
+	display:inline;
+	margin:0 0 0 4px;
+	padding-left:14px;
+}
+* html #footer_inner_wrapper ul li {
+	margin: 0 8px 0 4px;
+}
+#footer_inner_wrapper ul li a {
+	text-decoration: none;
+	color: #545d64;
+}
+#footer_inner_wrapper ul li a:hover {
+	text-decoration: underline;
+}
+#footer_inner_wrapper ul li.first_item {
+	background: none;
+	padding: 0;
+}
+#footer_inner_wrapper ul li.this_page {
+	text-decoration: underline;
+	color: #545d64
+}
+#footer_inner_wrapper p#copyright {
+	text-align: center;
+	width: 940px;
+	padding: 10px 20px 0 20px;
+	margin: 0;
+	color: #666; 
+}
+#link_rotator {
+	padding: 10px 10px 35px;
+	text-align: center;
+	margin: 0;
+	background: url(../images/footer_bottom.jpg) no-repeat bottom;
+	color: #666; 
+	display: none;
+}
+#link_rotator a {
+	color: #80877f;
+}
+#link_rotator a:hover {
+}
+#subfooter {
+	clear: both;
+}
+#advanced_layouts_78 #text_image_1,#advanced_layouts_78 #text_image_2,#advanced_layouts_78 #text_image_3,#advanced_layouts_78 #text_image_4,#advanced_layouts_78 #text_image_5,#advanced_layouts_78 #text_image_6,#advanced_layouts_78 #image_1_block {
+	border-color: #bbb !important;
+}
+#breadcrumb { 
+	display: none; 
+}
+.site_phrases_top { 
+	display: none; 
+}
+#text_1 { 
+	margin-top: 15px; 
+}
+#sidebar_address span.sidebar_address_line, #company_details span.sidebar_address_line { 
+	display:block;
+	line-height:18px;
+}
+
+#template_8 #image_row_bottom {
+	margin:15px auto 20px auto;
+	width:500px;
+}
+#content ul li { 
+	padding-left: 13px !important; 
+	background: url(../images/bullet1.jpg) no-repeat 0 50% !important; 
+} 
+
+#sidebar_address span.sidebar_address_line, #company_details span.sidebar_address_line  {
+display:block;
+line-height:21px !important;
+}
